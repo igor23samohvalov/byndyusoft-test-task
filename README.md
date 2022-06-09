@@ -1,1 +1,3 @@
-# byndyusoft-test-task
+- make install
+- make start
+- make test
