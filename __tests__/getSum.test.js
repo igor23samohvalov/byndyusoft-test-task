@@ -1,9 +1,9 @@
 import getSum from '../src/getSum';
 
-const testStr1 = '15,   22, sadds,  3 , 10  , 10,  -5';
+const testStr1 = '15,  dasd 22, sa2dds,  dsd , 10asd  , ,  -5';
 
 test('getSum returns sum of the lowest nums', () => {
-  expect(getSum(testStr1)).toBe(-2);
+  expect(getSum(testStr1)).toBe(-3);
 });
 test('getSum recognizes empty input', () => {
   expect(getSum()).toBe('input is empty');
